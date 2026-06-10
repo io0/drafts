@@ -37,6 +37,30 @@
       /* padding: 0.5rem 1rem; */
     }
 
+    .big-quote {
+      border-left: 2px solid rgba(34, 34, 34, 0.35);
+      padding: 8px 0 8px 28px;
+      margin: 1.75rem 0;
+      /* background-color: #faf9f6; */
+    }
+
+    .big-quote p {
+      font-size: 1.2rem;
+      line-height: 1.35;
+      margin-bottom: 0 !important;
+      text-wrap: pretty;
+    }
+
+    .big-quote .cite {
+      margin-top: 0.85rem;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 700;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(34, 34, 34, 0.45);
+    }
+
     .author {
       /* padding-left: 20px; */
       font-style: italic;
@@ -45,16 +69,41 @@
     .quote {
       padding: 10px 30px;
     }
+
+    .subheading {
+      font-family: 'Bembo SC', 'Adobe Garamond Pro', 'EB Garamond', serif;
+      font-weight: 600;
+      font-variant: small-caps;
+      letter-spacing: 0.05em;
+      font-size: 1.15rem;
+    }
+
+    .margin-note {
+      position: absolute;
+      top: 0;
+      left: calc(100% + 28px);
+      width: 140px;
+      font-size: 13px;
+      color: rgba(0, 0, 0, 0.85);
+      line-height: 1.3;
+    }
+
+    @media (max-width: 767px) {
+      .margin-note {
+        display: none;
+      }
+    }
   </style>
 </head>
 
 <body class="bg-[#E9E5DD] font-['EB_Garamond'] p-9 md:p-0 max-w-xl mx-auto relative">
   <nav class="hidden md:block fixed top-24 text-[13px] opacity-50 space-y-3 leading-snug"
     style="left: calc(50% - 380px - 140px); width: 150px;">
-    <a href="#human-but-more" class="block hover:text-gray-600 no-underline">I. Human, but more.</a>
+    <!-- <a href="#human-but-more" class="block hover:text-gray-600 no-underline">I. Human, but more.</a>
     <a href="#capacity" class="block hover:text-gray-600 no-underline">II. Scale and speed enable a telepathic future
       today</a>
     <a href="#existential" class="block hover:text-gray-600 no-underline">III. Our brain images</a>
+    <a href="#existential" class="block hover:text-gray-600 no-underline">IV. All hail the renegades</a> -->
 
   </nav>
   <div class="mt-8 md:mt-24 mb-48">
@@ -68,93 +117,151 @@
       <p class="py-5"><b id="human-but-more">I. Human, but more.</b>
         <i>We currently have access to only a fraction of what our minds are capable of.</i>
       </p>
+      <p class="">
+        <span class="border-b border-black border-opacity-50 subheading">prelude</span> Contextualize yourself.
+      </p>
 
       <p>Human minds are <i>bigger</i> than they seem. They can contain a million songs, the
-        smell of the moon, abstract symbols.</p>
-      <p>We were forged in an animal world; like all our forebears, in a formless expanse, of leaves and shades of
-        green. From here, we've conceived of inconceivable structure. Once, twice, over and over. We've
-        created Euclidean geometry. Classical music. The idea of computing. How could you not love this species?</p>
-      <p>
-      <p>Consider the following:</p>
-      <ol class="px-8">
-        <li>Our ability to think is circumscribed by our ability to communicate. Language was the first radical
-          communication technology, and has so drastically changed us as to enable complex civilization.</li>
-        <li>We are not at the limits of possible communication. Increasing communication will lead to an explosion of
-          thought, creation, and understanding.</li>
-      </ol>
+        smell of the moon, abstractions over abstractions.</p>
+      <p>We've been habituated to a vision of the future based on a narrow image of the past.
       </p>
-      <p class="text-xl pt-5" id="capacity">In every human, there is the capacity to be all humans.</p>
-      <!-- >Communication is both the apparatus of thought, and the means of transferring understanding.
-        In the absence of rich communication, we have access to only a fraction of what our minds are capable of. -->
-      <p>
-        To reach a state where every human can manifest their highest desires, we need telepathy. The safe transmission
-        of <i>ideas</i>
-        and abilities wholesale is patently lacking.</p>
-
-      <p>Telepathy consists in two things: the mapping of our ideas, intentions, and mental activities to the
-        correct external action, where the "action" captures the full fidelity of the idea (mind-to-world), and the
-        mapping of those ideas in full fidelity to another person's mind (mind-to-mind). We'll start
-        with the mind-to-world interface, and then build a mind-to-mind interface. Our mind-to-world
-        interface will enable astonishing experiences:</p>
-      <div class="bg-[#faf9f6] p-4 my-5 rounded-lg"><img
-          src="https://io0-questions.s3.us-west-2.amazonaws.com/2026/520de19f04d355080c42ff2ae16fc9b4.png"></img></div>
-
-      <p>In this regime, ordering an Uber is as primitive in experience as moving your index finger; the
-        distance between asking a
-        question and receiving an answer approaches the speed at which you can access your own memories; the
-        connection between you and your tools is so seamless that it is as if you can hold a whole codebase, genome,
-        dataset, company, etc. in your head.
+      <img width="240px" id="horse" class="mx-auto block py-5"
+        src="https://io0-questions.s3.us-west-2.amazonaws.com/2026/901dfeb1330090fb74892021678f01fc.png" />
+      <p class="relative">
+        Looking to the deep past tells a different story. What appears is the absolute, dizzying
+        expansion of human minds. We
+        came from the formless expanse of the jungle, and yet we've conceived of Euclidean
+        geometry. The idea of computing. Symmetry. Out of nothing, we've invented classical music.
+        <!-- <span class="margin-note">* How could you not love this species?</span> -->
       </p>
-      <p class="text-xl pt-5" id="existential">Increasing communication is existential</p>
-
-      <p>(diagram of square and rectangle)</p>
-
-
-      <p class="py-5 pt-20"><b id="human-but-more">II. Accelerando.</b>
-        <i>Those who ignore scaling laws do so at their own peril.</i>
+      <img src="https://io0-questions.s3.us-west-2.amazonaws.com/2026/1216d2036bbcab5f4254e26281adbf64.png" />
+      <!-- <img id="ape" src="https://io0-questions.s3.us-west-2.amazonaws.com/2026/de021de2d68e3cea3967743db65202ec.png" /> -->
+      <!-- <p>The mind possesses unbelievable beauty; <i>Progress</i>, in this context, is
+        a future of inconceivable lushness and
+        structure.</p> -->
+      <!-- <p>The mind possesses unbelievable beauty. Since prehistory we have realized inconceivable ideas and
+        structures; our future must be a continuation.</p> -->
+      <p class="relative">To think of horse -> car is to think of more speed and mechanization; to think of ape ->
+        thinking ape is to be in awe, and to
+        think of
+        a future of unknowable beauty. We hold that this is the truest nature
+        of the future.
+        <!-- <span class="margin-note">*There is still possibility for suffering, but it's worth remarking that the bulk of what we was unfathomable</span> -->
       </p>
-      <p>There are those who believe sticking electrodes in the brain or radical human modification is needed
-        for telepathy.</p>
-      <p> But consider the MindEye work - decoding of data from fMRI images</p>
-      [show image]
-      <p>FMRI is a noninvasive technology that produces milimeter-scale brain maps, much coarser than single neurons.
+      <!-- <p> Our story
+        is one of the <i>mind</i> and the realization of unbelievable beauty; </p> -->
+      <!-- <p>Nothing has changed about our brains; the characteristic that overshadows all others
+        are the <i>interfaces</i>. Our current level of civilization
+        runs on words, and hands.</p> -->
+      <!-- <p>How do we access our true ascendancy?</p> -->
+      <!-- <p>horse:car, ape: man (diagram)</p> -->
+      <p class="pb-5 pt-10">
+        <span class="border-b border-black border-opacity-50 subheading">scherzo</span>
       </p>
-      <p>On the one hand this is surprising. On the other, this is just another instance of two
-        principles that have proven out time and again</p>
-      <p class="text-xl pt-5">There is structure in data that humans can’t perceive</p>
-      <p><i>Exhibit A.</i> You can decode the sounds in the air from a video feed of a chip bag</p>
-      <p><i>Exhibit B.</i> You can tell when someone is about to click a button 200 ms before they do, from their iris
-      </p>
-      <p><i>Exhibit C.</i> You can reconstruct the position of a hand from a 4 x 4 pixel grid (leap motion)</p>
-      <p class="text-xl pt-5">Scaling laws are powerful</p>
-      We see the MindEye result as the MNIST result for brain decoding: the first time we have signs of life. The
-      performance of brain decoding scales with the size of the dataset in a log-linear relationship, similar to LLMs.
-      MindEye was trained on 40 hours of data. Interesting things happen when you scale: GPT-3 was trained on an
-      internet-sized dataset.
-      <p class="text-xl pt-5">Combine AI with new modalities of imaging the brain</p>
+      <div>
+        <p>Our minds are extremely general. Nothing has changed about our biological brains in the transition from
+          prehistoric man to now, and yet we possess new, inconceivable structures: language. Language has been one of
+          the biggest drivers of the transition from ape to thinking ape.</p>
+        <p>We believe this will happen again; that our current condition—running on words and hands—is
+          far shy of what our minds can do.</p>
+        <div class="quote">Have you ever tried multiplying roman numerals? It’s incredibly, ridiculously difficult.
+          That’s
+          why, before the
+          14th century, everyone thought that multiplication was an incredibly difficult concept, and only for the
+          mathematical elite. Then arabic numerals came along, with their nice place values, and we discovered that even
+          seven-year-olds can handle multiplication just fine. There was nothing difficult about the concept of
+          multiplication—the problem was that numbers, at the time, had a bad user interface.
+          <div class="author">Bret Victor</div>
+        </div>
+        <p>Consider that everything in the world is at the level of roman numerals; that most things are not truly
+          difficult, and that a direct interface between the mind and the world would render them so.</p>
+        <p>This telepathic interface has some astonishing experiences. You'll be able to order an Uber in the same
+          way as moving your index finger; the
+          connection between you and your tools is so seamless that it is as if you can hold a whole codebase, genome,
+          dataset, company, etc. in your head.
+        </p>
+        <div class="big-quote">
+          <p>“I can't believe we used to press buttons.”</p>
+          <div class="cite">Software Engineer, United States, 2028</div>
+        </div>
+        <p>The net effect is the arabic numeralization of everything. People want to create films, not drag files.
+          <!-- <div class="flex justify-center py-5">
+          <img width="200px"
+            src="https://io0-questions.s3.us-west-2.amazonaws.com/2026/c41376f7ca3ef737d09ebe3a29609b70.gif" />
+        </div> -->
+        <p>
+          A corollary: if we had visibility into the human brain, we would have a way to teach humans
+          effectively. By providing interesting data and iterating until the mind accessed the desired concept
+          ("multiplication", "harmonic oscillator"). Learning is no longer a chance-ridden process, but a pattern you
+          can
+          deliberately drive. Anything that one human can do is now available to all humans.</p>
+        <div class="big-quote">
+          <p>“I can't believe we thought physics was elite knowledge.”</p>
+          <div class="cite">Software Engineer, United States, 2030</div>
+        </div>
+        <p class="italic">And this is only the beginning.</p>
+        <p>The above description of the telepathic interface is like describing language through its advantages, when
+          its
+          grace is more fundamental. What good
+          is language? We live in it, we are steeped in it, we <i>are</i> it.</p>
+        <!-- <p class="text-xl" id="capacity">In every human, there is the capacity to be all humans.</p> -->
 
-      <p>Extract rich information from the brain, and scale the decoding capabilities with large datasets. </p>
+        <!-- <p class="italic">And this is only the beginning.</p> -->
 
-      <div class="space-y-4">
+        <!-- <div class="quote">
+          <p><i>What does language do for me? I live in it, I am steeped in it, I AM it.</i></p>
+        </div> -->
+        <p class="pb-2 pt-10">
+          <span class="border-b border-black border-opacity-50 subheading">coda</span> What is the meaning of this
+          technology?
+        </p>
+        <!-- <p>It is obvious for us to want to extend our health, our lifespans, and not die prematurely.</p> -->
+        <p>In the same way that we want to extend our lifespan and not die prematurely, we should want to extend our
+          capacities.</p>
+        <p>(diagram of square and rectangle)</p>
+        <p>There's another, subtler meaning. Understanding is coupled to love. We are the only species that can feel an
+          intense love for an object, an idea,
+          a
+          <i>thing</i> that is outside of ourselves. Barbara McClintock comes to mind, who spent thirty
+          years looking at chromosomes under a light microscope.
+        </p>
         <div class="quote">
-          <!-- <p>
+          <p>She called the Nobel "an extraordinary honor," adding, "It might seem unfair... to reward a person for
+            having
+            so much pleasure over the years, asking the maize plant to solve specific problems and then watching its
+            responses."</p>
+          <div class="author">Katharine, Time magazine</div>
+        </div>
+
+        <div class="space-y-4">
+          <div class="quote">
+            <!-- <p>
             An alien, dropped into Earth.
           </p>
           <p>"You mean, they serialize and deserialize? with their mouths?"</p> -->
-          <!-- <div class="author">Schopenhauer</div> -->
+            <!-- <div class="author">Schopenhauer</div> -->
+          </div>
         </div>
 
-
+        <!-- <p>Ability to learn, and think. Learning is a generalization of communication. The substrate of our learning and
+        thinking is hands, and words.</p>
+      <p>pottery: the thinking ocurred between the master's hands and the clay.</p>
+      (gif flipping through everything we've invented)
+      <p>Our true ascendancy all-knowingness, all-lovingness. </p>
+       <p>it may look like yet another company, like Apple. / our vision is to shepherd humans s.t. everything before can
+        be grouped together under the "motor age"</p>
+      <p>transportation of light and sound, new synesthetic experiences, that we can take joy from the motion of
+        chromosomes, and new forms of love.</p>
+      <p>Motor age.</p>
+      <p>Blue dutch ship associated with , </p> -->
 
       </div>
-
     </div>
-  </div>
 
-  <div class="mx-auto w-64 mt-24 mb-24">
-    <div>
+    <div class="mx-auto w-64 mt-24 mb-24">
+      <div>
+      </div>
     </div>
-  </div>
 </body>
 
 </html>
